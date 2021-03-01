@@ -27,13 +27,14 @@ header
 }
 #logo
 {
-    padding-left: 1rem;
+    padding-left: 2vw;
+    font-size: 3.5vmin;
     flex: 1;
 }
 #size-form
 {
     padding-right: 1rem;
-    font-size: 2rem;
+    font-size: 3vmin;
     flex-grow: 2;
     display: flex;
     flex-direction: row;
@@ -45,8 +46,8 @@ header
     border-radius: 2rem;
     padding-left: 1rem;
     border: none;
-    width: 20rem;
-    height: 2rem;
+    width: 15vw;
+    height: 4vh;
 }
 #size:focus, #clrbtn:focus
 {
@@ -65,12 +66,12 @@ header
     background-color: rgb(31, 31, 31);
     color: white;
     font-family: inherit;
-    font-size: 1.5rem;
+    font-size: 4vmin;
     border: none;
     border-radius: 2rem;
-    width: 20rem;
+    width: 15vw;
     height: 80%;
-    margin-right: 2rem;
+    margin-right: 3vw;
     cursor: pointer;
     transition: transform 0.1s ease;
 }
